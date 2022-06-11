@@ -1,0 +1,40 @@
+[
+    {
+        "FirstName": "ahmed",
+        "LastName":"Mohmaed",
+        "Phone":"01263636353",
+        "Email": "ahmed@atos.com",
+        "Password": "Asd123!@#"  
+    },
+    {
+        "FirstName": "Ahmed",
+        "LastName":"mohmaed",
+        "Phone":"01263636353",
+        "Email": "ahmed@atos.com",
+        "Password": "Asd123!@#"  
+    },
+    {
+        "FirstName": "Ahmed",
+        "LastName":"Mohmaed",
+        "Phone":"01263",
+        "Email": "ahmed@atos.com",
+        "Password": "Asd123!@#"  
+    },
+    {
+        "FirstName": "Ahmed",
+        "LastName":"Mohmaed",
+        "Phone":"01263636353",
+        "Email": "ahmed@atos",
+        "Password": "Asd123!@#"  
+    },
+    {
+        "FirstName": "Ahmed",
+        "LastName":"Mohmaed",
+        "Phone":"01263636353",
+        "Email": "ahmed@atos.com",
+        "Password": "12345"  
+    }
+]
+
+
+

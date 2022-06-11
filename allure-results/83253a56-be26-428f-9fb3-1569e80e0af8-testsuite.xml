@@ -1,0 +1,115 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654972618486' stop='1654972637941'>
+    <name>Registeration Test</name>
+    <title>Registeration Test</title>
+    <test-cases>
+        <test-case start='1654972618486' status='broken' stop='1654972631840'>
+            <name>Registeration Test with Valid data</name>
+            <title>Registeration Test with Valid data</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Cypress detected a cross origin error happened on page load:
+                
+                  > Blocked a frame with origin "https://www.phptravels.net" from accessing a cross-origin frame.
+                
+                Before the page load, you were bound to the origin policy:
+                
+                  > https://phptravels.net
+                
+                A cross origin error happens when your application navigates to a new URL which does not match the origin policy above.
+                
+                A new URL does not match the origin policy if the 'protocol', 'port' (if specified), and/or 'host' (unless of the same superdomain) are different.
+                
+                Cypress does not allow you to navigate to a different origin URL within a single test.
+                
+                You may need to restructure some of your test code to avoid this problem.
+                
+                Alternatively you can also disable Chrome Web Security in Chromium-based browsers which will turn off this restriction by setting { chromeWebSecurity: false } in `/Users/ahmedrizk/Desktop/Cypress/CypressProject/Atos_Cypress/cypress.json`.
+                
+                https://on.cypress.io/cross-origin-violation</message>
+                <stack-trace>CypressError: Cypress detected a cross origin error happened on page load:
+                
+                  > Blocked a frame with origin "https://www.phptravels.net" from accessing a cross-origin frame.
+                
+                Before the page load, you were bound to the origin policy:
+                
+                  > https://phptravels.net
+                
+                A cross origin error happens when your application navigates to a new URL which does not match the origin policy above.
+                
+                A new URL does not match the origin policy if the 'protocol', 'port' (if specified), and/or 'host' (unless of the same superdomain) are different.
+                
+                Cypress does not allow you to navigate to a different origin URL within a single test.
+                
+                You may need to restructure some of your test code to avoid this problem.
+                
+                Alternatively you can also disable Chrome Web Security in Chromium-based browsers which will turn off this restriction by setting { chromeWebSecurity: false } in `/Users/ahmedrizk/Desktop/Cypress/CypressProject/Atos_Cypress/cypress.json`.
+                
+                https://on.cypress.io/cross-origin-violation
+                    at onPageLoadErr (https://www.phptravels.net/__cypress/runner/cypress_runner.js:162712:76)
+                    at HTMLIFrameElement.&lt;anonymous> (https://www.phptravels.net/__cypress/runner/cypress_runner.js:178321:15)
+                    at HTMLIFrameElement.dispatch (https://www.phptravels.net/__cypress/runner/cypress_runner.js:117089:27)
+                    at HTMLIFrameElement.elemData.handle (https://www.phptravels.net/__cypress/runner/cypress_runner.js:116897:28)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1654972631857' status='broken' stop='1654972637899'>
+            <name>Registeration Test with invalid data</name>
+            <title>Registeration Test with invalid data</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Cypress detected a cross origin error happened on page load:
+                
+                  > Blocked a frame with origin "https://www.phptravels.net" from accessing a cross-origin frame.
+                
+                Before the page load, you were bound to the origin policy:
+                
+                  > https://phptravels.net
+                
+                A cross origin error happens when your application navigates to a new URL which does not match the origin policy above.
+                
+                A new URL does not match the origin policy if the 'protocol', 'port' (if specified), and/or 'host' (unless of the same superdomain) are different.
+                
+                Cypress does not allow you to navigate to a different origin URL within a single test.
+                
+                You may need to restructure some of your test code to avoid this problem.
+                
+                Alternatively you can also disable Chrome Web Security in Chromium-based browsers which will turn off this restriction by setting { chromeWebSecurity: false } in `/Users/ahmedrizk/Desktop/Cypress/CypressProject/Atos_Cypress/cypress.json`.
+                
+                https://on.cypress.io/cross-origin-violation</message>
+                <stack-trace>CypressError: Cypress detected a cross origin error happened on page load:
+                
+                  > Blocked a frame with origin "https://www.phptravels.net" from accessing a cross-origin frame.
+                
+                Before the page load, you were bound to the origin policy:
+                
+                  > https://phptravels.net
+                
+                A cross origin error happens when your application navigates to a new URL which does not match the origin policy above.
+                
+                A new URL does not match the origin policy if the 'protocol', 'port' (if specified), and/or 'host' (unless of the same superdomain) are different.
+                
+                Cypress does not allow you to navigate to a different origin URL within a single test.
+                
+                You may need to restructure some of your test code to avoid this problem.
+                
+                Alternatively you can also disable Chrome Web Security in Chromium-based browsers which will turn off this restriction by setting { chromeWebSecurity: false } in `/Users/ahmedrizk/Desktop/Cypress/CypressProject/Atos_Cypress/cypress.json`.
+                
+                https://on.cypress.io/cross-origin-violation
+                    at onPageLoadErr (https://www.phptravels.net/__cypress/runner/cypress_runner.js:162712:76)
+                    at HTMLIFrameElement.&lt;anonymous> (https://www.phptravels.net/__cypress/runner/cypress_runner.js:178321:15)
+                    at HTMLIFrameElement.dispatch (https://www.phptravels.net/__cypress/runner/cypress_runner.js:117089:27)
+                    at HTMLIFrameElement.elemData.handle (https://www.phptravels.net/__cypress/runner/cypress_runner.js:116897:28)
+                From Your Spec Code:
+                    at eval (https://www.phptravels.net/__cypress/tests?p=cypress/integration/Test/RegisterationTest.js:7354:10)
+                at Array.forEach (&lt;anonymous>)
+                    at Context.eval (https://www.phptravels.net/__cypress/tests?p=cypress/integration/Test/RegisterationTest.js:7353:37)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,6 @@
+{
+  "baseUrl": "https://www.phptravels.net/signup",
+  "pageLoadTimeout": 100000,
+  "defaultCommandTimeout": 60000,
+  "projectId": "5rkp7z"
+}
